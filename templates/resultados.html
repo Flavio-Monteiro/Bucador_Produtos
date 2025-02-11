@@ -12,7 +12,13 @@
         <a href="/">Voltar</a>
         <ul>
             {% for produto in resultados %}
-                <li>Código: {{ produto['CÓDIGO'] }}, Produto: {{ produto['PRODUTO'] }}</li>
+                <li class="produto">
+                    <img src="{{ url_for('static', filename=produto['IMAGEM']) }}" alt="{{ produto['PRODUTO'] }}" class="produto-imagem">
+                    <div class="produto-info">
+                        <p><strong>Código:</strong> {{ produto['CÓDIGO'] }}</p>
+                        <p><strong>Produto:</strong> {{ produto['PRODUTO'] }}</p>
+                    </div>
+                </li>
             {% endfor %}
         </ul>
     </div>
