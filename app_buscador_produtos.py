@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # Base de dados dos produtos
 produtos = [
-   {"CÓDIGO": 1096, "PRODUTO": "BEIJINHO", "IMAGEM": "images/1096.jpg"},
+   {"CÓDIGO": 1096, "PRODUTO": "BEIJINHO", "IMAGEM": "images/1096.png"},
     {"CÓDIGO": 17834, "PRODUTO": "BISCOITO CACETINHO"},
     {"CÓDIGO": 5913, "PRODUTO": "BISCOITO CHAMPAGNE"},
     {"CÓDIGO": 3056, "PRODUTO": "BOLACHA CAMELO"},
