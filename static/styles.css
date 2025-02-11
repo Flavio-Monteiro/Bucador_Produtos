@@ -29,6 +29,34 @@ h1 {
     margin-bottom: 20px;
 }
 
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+   width: 80VW;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    min-width: 80vw;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
 a {
     display: inline-block;
     margin-bottom: 20px;
