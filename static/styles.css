@@ -37,7 +37,7 @@ label {
 }
 
 input[type="text"] {
-   width: 80VW;
+   width: 220px;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
