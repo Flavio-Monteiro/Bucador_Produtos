@@ -7,7 +7,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100vw;
+    min-width: 90vw;
+    padding: 10px;
 }
 
 .container {
@@ -15,7 +16,7 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
+    min-height: 90vh;
     text-align: center;
 }
 
