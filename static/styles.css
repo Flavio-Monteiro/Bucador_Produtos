@@ -37,7 +37,7 @@ label {
 }
 
 input[type="text"] {
-   width: 220px;
+  
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
@@ -51,7 +51,7 @@ button {
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
-    min-width: 80vw;
+    min-width: 220px;
 }
 
 button:hover {
