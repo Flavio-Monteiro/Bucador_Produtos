@@ -101,3 +101,5 @@ li.produto {
 .produto-info p {
     margin: 5px 0;
 }
+
+form {border: 3px solid red;}
