@@ -17,7 +17,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     min-width: 70%;
-    height: 600PX;
+    height: 90vh;
     text-align: center;
     display: flex;
     justify-content: center;
