@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "app_buscador_produtos.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "app_buscador_produtos.py"
+    }
+  ]
+}
